@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TP2 de Marie-Jeanne Drouin</title>
+  <link rel="stylesheet" href="/index.044e704e.css">
+  <link rel="stylesheet" href="/index.4d663569.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <script src="/index.18dbc454.js" defer=""></script>
+</head>
+
+<body>
+  <!-- Panier header-->
+  <header class="bg-primary d-flex justify-content-end">
+    <button class="btn btn-success" data-bs-toggle="offcanvas" data-bs-target="#ocCart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewbox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+      </svg></button>
+  </header>
+  <main>
+    <!--List view / Grid view-->
+    <div id="btnContainer" class="view-toggler d-none d-lg-block">
+      <button class="btnList">
+        <i class="fa fa-bars">
+          List
+        </i> 
+      </button>
+      <button class="btnGrid">
+        <i class="fa fa-th-large">
+          Grid
+        </i>
+      </button>
+    </div>
+    <br>
+    <h1>Boutique Cliché</h1>
+    <!--Cards-->
+    <div class="container justify-content-center">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-4 col-md-6 p-3 justify-content-center">
+          <div class="card" style="width: 18rem justify-content-center">
+            <img src="https://picsum.photos/id/37/400/300?grayscale" class="card-img-top" alt="image de la mer avec de la végétation">
+            <div class="card-body">
+              <h2 class="fw-bold card-title">Mer et végétation</h2>
+              <p class="card-text">Cliché du photographe Austin Neill</p>
+              <p class="fw-bold card-price">Prix: <span>9.99</span>$</p>
+              <a href="#" class="btn btn-primary btn-buy" data-bs-toggle="offcanvas" data-bs-target="#ocCart">Acheter</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 p-3">
+          <div class="card" style="width: 18rem justify-content-center">
+            <img src="https://picsum.photos/id/38/400/300?grayscale" class="card-img-top" alt="image du ciel avec une comète">
+            <div class="card-body">
+              <h2 class="fw-bold card-title">Ciel et étoile</h2>
+              <p class="card-text">Cliché du photographe Allyson Souza</p>
+              <p class="fw-bold card-price">Prix: <span>9.99</span>$</p>
+              <a href="#" class="btn btn-primary btn-buy" data-bs-toggle="offcanvas" data-bs-target="#ocCart">Acheter</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 p-3">
+          <div class="card" style="width: 18rem justify-content-center">
+            <img src="https://picsum.photos/id/50/400/300?grayscale" class="card-img-top" alt="image d'un goelan se tenant sur corde qui attache un bateau à la rive">
+            <div class="card-body">
+              <h2 class="fw-bold card-title">La rive</h2>
+              <p class="card-text">Cliché du photographe Tyler Wanlass.</p>
+              <p class="fw-bold card-price">Prix: <span>11.99</span>$</p>
+              <a href="#" class="btn btn-primary btn-buy" data-bs-toggle="offcanvas" data-bs-target="#ocCart">Acheter</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 p-3">
+          <div class="card" style="width: 18rem justify-content-center">
+            <img src="https://picsum.photos/id/54/400/300?grayscale" class="card-img-top" alt="image de pingouin se tenant sur un rocher">
+            <div class="card-body">
+              <h2 class="fw-bold card-title">Pingouin du rocher</h2>
+              <p class="card-text">Cliché du photographe Nicholas Swanson.</p>
+              <p class="fw-bold card-price">Prix: <span>10.99</span>$</p>
+              <a href="#" class="btn btn-primary btn-buy" data-bs-toggle="offcanvas" data-bs-target="#ocCart">Acheter</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 p-3">
+          <div class="card" style="width: 18rem justify-content-center">
+            <img src="https://picsum.photos/id/77/400/300?grayscale" class="card-img-top" alt="image d'un passage en bois au dessus de l'eau menant à une cabane">
+            <div class="card-body">
+              <h2 class="fw-bold card-title">La villa</h2>
+              <p class="card-text">Cliché du photographe May Pamintuan.</p>
+              <p class="fw-bold card-price">Prix: <span>9.99</span>$</p>
+              <a href="#" class="btn btn-primary btn-buy" data-bs-toggle="offcanvas" data-bs-target="#ocCart">Acheter</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 p-3">
+          <div class="card" style="width: 18rem justify-content-center">
+            <img src="https://picsum.photos/id/274/400/300?grayscale" class="card-img-top" alt="image de la ville de New-York">
+            <div class="card-body">
+              <h2 class="fw-bold card-title">New-York</h2>
+              <p class="card-text">Cliché du photographe Wojtek Witkowski.</p>
+              <p class="fw-bold card-price">Prix: <span>10.99</span>$</p>
+              <a href="#" class="btn btn-primary btn-buy" data-bs-toggle="offcanvas" data-bs-target="#ocCart">Acheter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!--Off canva/panier-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="ocCart" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Panier</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="cart-items"></div>
+        <p class="fw-bold cart-total">Total <span>0.00</span>$</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewbox="0 0 16 16">
+      <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"></path>
+    </svg>
+    <p>PMI | 2023</p>
+  </footer>
+    
+<canvas class="background"></canvas>
+  
+<script src="/index.08374fd4.js"></script>
+
+</body>
+
+</html>
